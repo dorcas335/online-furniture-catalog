@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furni - Online Furniture Catalog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="Logo.svg" alt="Furni Logo" width="120">
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="nav-icons">
+        <img src="Small Icons/User Icon.svg" alt="User">
+        <img src="Small Icons/Cart Icon.svg" alt="Cart">
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Modern Interior Design Studio</h1>
+      <p>Discover modern furniture crafted with elegance and durability. Perfect for your living room, bedroom, and workspace.</p>
+      <div class="hero-buttons">
+        <button>Shop Now</button>
+        <button>Explore</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="obi-39950930903262-Photoroom-2.webp" alt="Green Sofa">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-text">
+      <h2>Crafted with Excellent Material</h2>
+      <p>Our furniture is designed with the best quality materials, ensuring long-lasting durability and timeless style. From sofas to tables, each piece is carefully crafted to suit your modern lifestyle.</p>
+      <button>Explore</button>
+    </div>
+    <div class="about-images">
+      <img src="ani-coffee-tables-39870684627166-Photoroom.webp" alt="Ani Coffee Table">
+      <img src="raji-table-coffee-tables-39872517570782-Photoroom.webp" alt="Raji Coffee Table">
+      <img src="dream-bedframe-39871388483806-Photoroom.webp" alt="Dream Bedframe">
+    </div>
+  </section>
+
+  <!-- Catalog Section -->
+  <section id="shop" class="catalog">
+    <h2>Our Product Collections</h2>
+    <nav class="filters">
+      <button data-filter="all">All Products</button>
+      <button data-filter="chairs">Chairs</button>
+      <button data-filter="tables">Tables</button>
+      <button data-filter="sofas">Sofas</button>
+    </nav>
+    <div id="catalog-grid">
+      <!-- Example Items -->
+      <div class="catalog-item" data-category="tables">
+        <img src="ani-coffee-tables-39870684627166-Photoroom.webp" alt="Ani Coffee Table">
+        <h3>Ani Coffee Table</h3>
+        <p>$250</p>
+      </div>
+      <div class="catalog-item" data-category="tables">
+        <img src="raji-table-coffee-tables-39872517570782-Photoroom.webp" alt="Raji Coffee Table">
+        <h3>Raji Coffee Table</h3>
+        <p>$320</p>
+      </div>
+      <div class="catalog-item" data-category="sofas">
+        <img src="obi-39950930903262-Photoroom-2.webp" alt="Obi Sofa">
+        <h3>Obi Sofa</h3>
+        <p>$680</p>
+      </div>
+      <div class="catalog-item" data-category="beds">
+        <img src="dream-bedframe-39871388483806-Photoroom.webp" alt="Dream Bedframe">
+        <h3>Dream Bedframe</h3>
+        <p>$450</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><img src="Small Icons/Location Icon.svg" alt="Location"> University of Lagos, Nigeria</p>
+      <p><img src="Small Icons/Email Icon.svg" alt="Email"> teamfurni@gmail.com</p>
+      <p><img src="Small Icons/Phone Icon.svg" alt="Phone"> +234 800 000 0001</p>
+    </div>
+    <form id="contact-form">
+      <div class="form-row">
+        <input type="text" name="firstName" placeholder="First Name" required>
+        <input type="text" name="lastName" placeholder="Last Name" required>
+      </div>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <textarea name="message" placeholder="Message" minlength="10" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Furni. All rights reserved.</p>
+    <div class="footer-icons">
+      <img src="Small Icons/Email Icon.svg" alt="Email">
+      <img src="Small Icons/Phone Icon.svg" alt="Phone">
+      <img src="Small Icons/Telegram Icon.svg" alt="Telegram">
+    </div>
+  </footer>
+
+</body>
+</html>
