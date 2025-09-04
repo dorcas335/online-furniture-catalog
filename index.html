@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Furni - Online Furniture Catalog</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="catalog-filtering.js" defer></script>
+  
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="images/Logo.svg" alt="Furni Logo" width="120">
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About us</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="nav-icons">
+        <img src="images/Small Icons/User Icon.svg" alt="User">
+        <img src="images/Small Icons/Cart Icon.svg" alt="Cart">
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <h1>Modern Interior Design Studio</h1>
+      <p>Discover modern furniture crafted with elegance and durability. Perfect for your living room, bedroom, and workspace.</p>
+      <div class="hero-buttons">
+        <button>Shop Now</button>
+        <button>Explore</button>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="images/Image 1.png" alt="Green Sofa">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-text">
+      <h2>Crafted with Excellent Material</h2>
+      <p>Our furniture is designed with the best quality materials, ensuring long-lasting durability and timeless style. From sofas to tables, each piece is carefully crafted to suit your modern lifestyle.</p>
+      <button>Explore</button>
+    </div>
+    <div class="about-images">
+      <img src="images/Image 2.png" alt="Nordic Chair">
+      <img src="images/Image 3.png" alt="Nordic chair1">
+      <img src="images/Image 4.png" alt="Nordic Chair2">
+    </div>
+  </section>
+<!--interior Design Section -->
+<section class="interior">
+    <div class="images">
+      <img src="images/Image 6.jpg" alt="Living Room" class="img-large">
+      <img src="images/Image 7.jpg" alt="Office" class="img-small top-right">
+      <img src="images/Image 8.jpg" alt="Stool" class="img-small bottom-center">
+    </div>
+
+    <div class="content">
+      <h2>We Help You Make Modern Interior Design</h2>
+      <p>
+        Our team of interior designers brings your vision to life, blending aesthetics with functionality. From cozy living rooms to productive workspaces, we focus on creating spaces that reflect your style while optimizing comfort and utility.
+      </p>
+      <ul>
+        <li>✔ Customized layouts tailored to your space</li>
+        <li>✔ Selection of furniture that balances style and comfort</li>
+        <li>✔ Smart storage solutions for clutter-free interiors</li>
+        <li>✔ Modern color schemes and decor accents</li>
+      </ul>
+      <button class="btn">Explore</button>
+    </div>
+  </section>
+
+<!--Catalog/ptoduct sECTION-->
+<section id="shop" class="products">
+  <p class="section-subtitle">Our Products</p>
+  <h2 class="section-title">Our <span id="section-title">Products Collections</span></h2>
+
+  <!-- Filter Buttons -->
+  <div class="product-filters">
+    <button data-category="all" class="active">All Products</button>
+    <button data-category="chair">Chairs</button>
+    <button data-category="table">Tables</button>
+    <button data-category="sofa">Sofas</button>
+  </div>
+
+  <!-- Product Grid -->
+  <div class="product-grid"></div>
+</section>
+
+ <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact-info">
+      <p><img src="images/Small Icons/Location Icon.svg" alt="Location" class="icon"> University of Lagos, Nigeria</p>
+      <p><img src="images/Small Icons/Email Icon.svg" alt="Email" class="icon"> teamfurni@gmail.com</p>
+      <p><img src="images/Small Icons/Phone Icon.svg" alt="Phone" class="icon"> +234 800 000 0001</p>
+    </div>
+    <form id="contact-form">
+      <div class="form-row">
+        <input type="text" name="firstName" placeholder="First Name" pattern="[A-Za-z]{1,50}" required maxlength="50">
+        <input type="text" name="lastName" pattern="[A-Za-z]{1,50}" required maxlength="50">
+      </div>
+      <input type="email" name="email" placeholder="Email Address" required>
+      <textarea name="message" placeholder="Message" minlength="10" maxlength="1000" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+  <!-- Footer -->
+<footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <h2>Furni.</h2>
+      
+      <div class="footer-icons">
+        <a href="#"><img src="images/Frame 22.svg" alt="Facebook"></a>
+        <a href="#"><img src="images/Frame 21.svg" alt="Instagram"></a>
+        <a href="#"><img src="images/Frame 23.svg" alt="X"></a>
+        <a href="#"><img src="images/Frame 24.svg" alt="LinkedIn"></a>
+      </div>
+
+      <div class="footer-disclaimer">
+        <p><strong>Disclaimer:</strong></p>
+        <p>This website is an academic project by Team G-13 and is not intended for commercial use. Some images and references are sourced from external platforms, including:</p>
+        <ul>
+          <li>- Product images from taeillo.com</li>
+          <li>- Stock photos from iStockPhoto</li>
+          <li>- Design inspiration from YouTube.com, Designer.com, and Dribble.com</li>
+        </ul>
+      </div>
+
+      <p class="footer-rights">
+        All rights remain with their respective owners. No copyright infringement is intended.
+      </p>
+    </div>
+
+    <div class="footer-right">
+      <img src="images/Image-12.png" alt="Chair">
+    </div>
+  </div>
+</footer>
