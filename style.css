@@ -655,7 +655,6 @@ color: green;
 }
 
 
-
 /* Fix interior image alignment so it always fits in mobile */
 @media (max-width: 768px) {
   .interior {
@@ -663,18 +662,18 @@ color: green;
     align-items: center;
     padding: 20px;
     gap: 20px;
-    overflow: hidden; 
+    overflow: hidden; /* prevent side scroll */
   }
 
   .interior .images {
     position: relative;
     width: 100%;
-    max-width: 100%; 
+    max-width: 100%; /* container never wider than screen */
     margin: auto;
   }
 
   .interior .img-large {
-    width: 90%;   
+    width: 90%;   /* shrink main image slightly */
     height: auto;
     display: block;
     margin: 0 auto;
@@ -682,7 +681,7 @@ color: green;
 
   .interior .img-small {
     width: 40%;
-    max-width: 120px; 
+    max-width: 120px; /* keeps small images manageable */
   }
 
   .interior .img-small.top-right {
