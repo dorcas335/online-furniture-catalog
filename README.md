@@ -2,6 +2,7 @@
 Our group project is an Online Furniture Catalog, a web-based application created using HTML, CSS, and JavaScript. It is designed to simplify the process of browsing and selecting furniture items online. Instead of relying on traditional, time-consuming methods, users can easily search, filter, and view detailed information about specific furniture pieces.
 
 Objectives
+
 The main objectives of the project are:
 
 To simplify furniture browsing for users.
