@@ -695,3 +695,13 @@ color: green;
     transform: translateX(-50%);
   }
 }
+
+
+/* Errors: From Validation */
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 4px;
+  display: block;
+}

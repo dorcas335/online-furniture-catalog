@@ -5,8 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Furni - Online Furniture Catalog</title>
   <link rel="stylesheet" href="style.css">
-  <script src="catalog-filtering.js" defer></script>
-  
+  <script type="module" src="main.js" defer></script>
 </head>
 <body>
   <!-- Header -->
@@ -49,7 +48,7 @@
       </div>
     </div>
     <div class="hero-image">
-      <img src="images/Image 1.png" alt="Green Sofa">
+      <img src="images/Image-1.png" alt="Green Sofa">
     </div>
   </section>
 
@@ -61,17 +60,17 @@
       <button>Explore</button>
     </div>
     <div class="about-images">
-      <img src="images/Image 2.png" alt="Nordic Chair">
-      <img src="images/Image 3.png" alt="Nordic chair1">
-      <img src="images/Image 4.png" alt="Nordic Chair2">
+      <img src="images/Image-2.png" alt="Nordic Chair">
+      <img src="images/Image-3.png" alt="Nordic chair1">
+      <img src="images/Image-4.png" alt="Nordic Chair2">
     </div>
   </section>
 <!--interior Design Section -->
 <section class="interior">
     <div class="images">
-      <img src="images/Image 6.jpg" alt="Living Room" class="img-large">
-      <img src="images/Image 7.jpg" alt="Office" class="img-small top-right">
-      <img src="images/Image 8.jpg" alt="Stool" class="img-small bottom-center">
+      <img src="images/Image-6.jpg" alt="Living Room" class="img-large">
+      <img src="images/Image-7.jpg" alt="Office" class="img-small top-right">
+      <img src="images/Image-8.jpg" alt="Stool" class="img-small bottom-center">
     </div>
 
     <div class="content">
@@ -116,10 +115,17 @@
     <form id="contact-form">
       <div class="form-row">
         <input type="text" name="firstName" placeholder="First Name" pattern="[A-Za-z]{1,50}" required maxlength="50">
-        <input type="text" name="lastName" placehlder="Last Name" pattern="[A-Za-z]{1,50}" required maxlength="50">
+        <span class="error" id="firstNameError"></span>
+        
+        <input type="text" name="lastName" placeholder="Last Name" pattern="[A-Za-z]{1,50}" required maxlength="50">
+        <span class="error" id="lastNameError"></span>
       </div>
       <input type="email" name="email" placeholder="Email Address" required>
+      <span class="error" id="emailError"></span>
+
       <textarea name="message" placeholder="Message" minlength="10" maxlength="1000" required></textarea>
+      <span class="error" id="messageError"></span>
+
       <button type="submit">Send Message</button>
     </form>
   </section>
