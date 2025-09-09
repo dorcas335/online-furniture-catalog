@@ -54,7 +54,7 @@ JavaScript – for interactivity, search functionality, and form validation and 
 
 This project demonstrates the following wweb development skills:
 
--DOM manipulatiom : Dynamically updating page content based on user input.
+-DOM manipulation : Dynamically updating page content based on user input.
 
 -Form validation: Using HTML5 required attribute and custom Javascript validation.
 
