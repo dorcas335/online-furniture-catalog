@@ -37,7 +37,7 @@ The main objectives of this coursework project are to:
 ---
 
 ## Project Structure
-
+```
 .
 ├── images                  # All images and icons used in the catalog
 ├── index.html              # Main HTML file
@@ -49,7 +49,7 @@ The main objectives of this coursework project are to:
 ├── style.css               # Stylesheet for the application
 └── README.md               # Project documentation
 
-
+```
 
 
 ---
